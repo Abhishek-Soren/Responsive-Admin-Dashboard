@@ -1,2 +1,59 @@
 @use "./base";
 @import "./mixins";
+
+a {
+    color: color(dark);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+
+small {
+    font-size: 0.76rem;
+}
+
+p {
+    color: color(dark-variant);
+}
+
+b {
+    color: color(dark);
+}
+
+.text-muted {
+    color: color(info-dark);
+}
+
+.primary {
+    color: color(primary);
+}
+
+.danger {
+    color: color(danger);
+}
+
+.success {
+    color: color(success);
+}
+
+.warning {
+    color: color(warning);
+}
