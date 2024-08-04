@@ -28,6 +28,10 @@ body {
   background-color: #f6f6f9;
 }
 
+main .recent-orders table, main .new-users .user-list, main .analyze > div, aside .sidebar a span, aside .sidebar a, aside .sidebar {
+  transition: all 0.3s ease;
+}
+
 a {
   color: #363949;
   font-size: 0;
@@ -123,7 +127,6 @@ aside .sidebar {
   height: 88vh;
   position: relative;
   top: 1.5rem;
-  transition: all 0.3s ease;
 }
 aside .sidebar:hover {
   box-shadow: none;
@@ -136,14 +139,165 @@ aside .sidebar a {
   gap: 1rem;
   position: relative;
   margin-left: 2rem;
-  transition: all 0.3s ease;
 }
 aside .sidebar a span {
   font-size: 1.6rem;
-  transition: all 0.3s ease;
 }
 aside .sidebar a:last-child {
   position: absolute;
   bottom: 2rem;
   width: 100%;
+}
+aside .sidebar a.active {
+  width: 100%;
+  color: #6c9bcf;
+  background-color: rgba(132, 139, 200, 0.18);
+  margin-left: 0;
+}
+aside .sidebar a.active::before {
+  content: "";
+  width: 6px;
+  height: 18px;
+  background-color: #6c9bcf;
+}
+aside .sidebar a.active span {
+  color: #6c9bcf;
+  margin-left: calc(1rem - 3px);
+}
+aside .sidebar a:hover {
+  color: #6c9bcf;
+}
+aside .sidebar a:hover span {
+  margin-left: 0.6rem;
+}
+aside .sidebar .message-count {
+  background-color: #ff0060;
+  padding: 2px 6px;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 0.4rem;
+}
+
+main {
+  margin-top: 1.2rem;
+}
+main .analyze {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+main .analyze > div {
+  background-color: #fff;
+  padding: 1.8rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  cursor: pointer;
+}
+main .analyze > div .status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .analyze > div:hover {
+  box-shadow: none;
+}
+main .analyze h3 {
+  margin-left: 0.6rem;
+  font-size: 1rem;
+}
+main .analyze .progress {
+  position: relative;
+  height: 92px;
+  width: 92px;
+}
+main .analyze .progress .percentage {
+  position: absolute;
+  top: -3px;
+  left: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+main .analyze svg {
+  height: 7rem;
+  width: 7rem;
+}
+main .analyze svg circle {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+main .analyze .sales svg circle {
+  stroke: #1b9c85;
+  stroke-dashoffset: -70;
+  stroke-dasharray: 200;
+}
+main .analyze .visits svg circle {
+  stroke: #ff0060;
+  stroke-dashoffset: -10;
+  stroke-dasharray: 200;
+}
+main .analyze .searches svg circle {
+  stroke: #6c9bcf;
+  stroke-dashoffset: -50;
+  stroke-dasharray: 200;
+}
+main .new-users {
+  margin-top: 1.3rem;
+}
+main .new-users .user-list {
+  background-color: #fff;
+  padding: 1.8rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  cursor: pointer;
+}
+main .new-users .user-list:hover {
+  box-shadow: none;
+}
+main .new-users .user-list .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .new-users .user-list .user img {
+  height: 5rem;
+  width: 100%;
+  margin-bottom: 0.4rem;
+  border-radius: 50%;
+}
+main .recent-orders {
+  margin-top: 1.3rem;
+}
+main .recent-orders h2 {
+  margin-bottom: 0.8rem;
+}
+main .recent-orders table {
+  background-color: #fff;
+  width: 100%;
+  padding: 1.8rem;
+  text-align: center;
+  box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+  border-radius: 2rem;
+}
+main .recent-orders table:hover {
+  box-shadow: none;
+}
+main .recent-orders table tbody td {
+  height: 2.8rem;
+  border-bottom: 1px solid rgba(132, 139, 200, 0.18);
+  color: #677483;
+}
+main .recent-orders table tbody tr:last-child td {
+  border: none;
 }

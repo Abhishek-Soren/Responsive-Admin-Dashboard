@@ -20,7 +20,7 @@
     <title>UnBox Admin</title>
   </head>
   <body>
-    <div class="container dark-mode-variables">
+    <div class="container">
       <!-- Sidebar -->
       <aside>
         <div class="toggle">
@@ -85,8 +85,138 @@
           </a>
         </div>
       </aside>
-
       <!-- End of Sidebar Section -->
+
+      <!-- Main Content -->
+      <main>
+        <h1>Analytics</h1>
+        <!-- Analytics -->
+        <div class="analyze">
+          <div class="sales">
+            <div class="status">
+              <div class="info">
+                <h3>Total Sales</h3>
+                <h1>Rs 95,000</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+81%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="visits">
+            <div class="status">
+              <div class="info">
+                <h3>Site Visits</h3>
+                <h1>29,801</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+48%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="searches">
+            <div class="status">
+              <div class="info">
+                <h3>Searches</h3>
+                <h1>12,534</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+21%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End of Analytics -->
+
+        <!-- New Users Section -->
+        <div class="new-users">
+          <h2>New Users</h2>
+          <div class="user-list">
+            <div class="user">
+              <img src="./assets/face1.png" />
+              <h2>Sriya</h2>
+              <p>54 Min Ago</p>
+            </div>
+            <div class="user">
+              <img src="./assets/face2.png" />
+              <h2>Amar</h2>
+              <p>3 Hours Ago</p>
+            </div>
+            <div class="user">
+              <img src="./assets/face3.png" />
+              <h2>Katya</h2>
+              <p>6 Hours Ago</p>
+            </div>
+            <div class="user">
+              <img src="./assets/plus.png" />
+              <h2>More</h2>
+              <p>New User</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of New Users Section -->
+
+        <!-- Recent Orders Table -->
+        <div class="recent-orders">
+          <h2>Recent Orders</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product Name</th>
+                <th>Product Number</th>
+                <th>Payment</th>
+                <th>Status</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Overgeared Manhwa</td>
+              <td>120954</td>
+              <td>Due</td>
+              <td>Pending</td>
+              <td>Details</td>
+            </tr>
+            <tr>
+              <td>Fairy Tail Manga</td>
+              <td>786392</td>
+              <td>Refunded</td>
+              <td>Declined</td>
+              <td>Details</td>
+            </tr>
+            <tr>
+              <td>Frieren Manga</td>
+              <td>234944</td>
+              <td>Paid</td>
+              <td>Active</td>
+              <td><a href="#">Details</a></td>
+            </tr>
+            <tbody></tbody>
+          </table>
+          <a href="#">Show All</a>
+        </div>
+        <!-- End of Recent Orders -->
+      </main>
+      <!-- End of Main Content -->
+
+      <!-- Right Section -->
+      <!-- End of Right Section -->
     </div>
 
     <script src="./script/index.js" async defer></script>
