@@ -301,3 +301,9 @@ main .recent-orders table tbody td {
 main .recent-orders table tbody tr:last-child td {
   border: none;
 }
+main .recent-orders a {
+  text-align: center;
+  display: block;
+  margin: 1rem auto;
+  color: #6c9bcf;
+}

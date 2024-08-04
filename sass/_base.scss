@@ -8,20 +8,20 @@
 // );
 
 $colors: (
-  primary: #6c9bcf,
-  danger: #ff0060,
-  success: #1b9c85,
-  warning: #f7d060,
-  white: #fff,
-  info-dark: #7d8da1,
-  dark: #363949,
-  light: rgba(132, 139, 200, 0.18),
-  dark-variant: #677483,
-  background: #f6f6f9
+    primary: #6c9bcf,
+    danger: #ff0060,
+    success: #1b9c85,
+    warning: #f7d060,
+    white: #fff,
+    info-dark: #7d8da1,
+    dark: #363949,
+    light: rgba(132, 139, 200, 0.18),
+    dark-variant: #677483,
+    background: #f6f6f9,
 );
 
 @function color($color-name) {
-  @return map-get($colors, $color-name);
+    @return map-get($colors, $color-name);
 }
 
 $card-border-radius: 2rem;
@@ -49,26 +49,26 @@ $box-shadow: 0 2rem 3rem color(light);
 // }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  appearance: 0;
-  border: 0;
-  text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
 }
 
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  font-size: 0.88rem;
-  user-select: none;
-  color: color(dark);
-  overflow-x: hidden;
-  background-color: color(background);
+    font-family: "Poppins", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    user-select: none;
+    color: color(dark);
+    overflow-x: hidden;
+    background-color: color(background);
 }

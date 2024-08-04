@@ -316,5 +316,12 @@ main {
                 }
             }
         }
+
+        a {
+            text-align: center;
+            display: block;
+            margin: 1rem auto;
+            color: color(primary);
+        }
     }
 }
