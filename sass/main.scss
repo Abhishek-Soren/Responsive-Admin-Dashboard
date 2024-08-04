@@ -1,8 +1,9 @@
-@use "./base";
+@use "./base" as *;
 @import "./mixins";
 
 a {
     color: color(dark);
+    font-size: 0;
 }
 
 img {
@@ -56,4 +57,72 @@ b {
 
 .warning {
     color: color(warning);
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 12rem auto 23rem;
+}
+
+aside {
+    height: 100vh;
+
+    .toggle {
+        @include flex-center(space-between, center);
+        margin-top: 1.4rem;
+
+        .logo {
+            img {
+                height: 2rem;
+            }
+        }
+
+        .close {
+            @include flex-center;
+
+            padding-right: 1rem;
+            display: none;
+        }
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        background-color: color(white);
+        box-shadow: $box-shadow;
+        border-radius: 15px;
+        height: 88vh;
+        position: relative;
+        top: 1.5rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            color: color(info-dark);
+            height: 3.7rem;
+            gap: 1rem;
+            position: relative;
+            margin-left: 2rem;
+            transition: all 0.3s ease;
+
+            span {
+                font-size: 1.6rem;
+                transition: all 0.3s ease;
+            }
+
+            &:last-child {
+                position: absolute;
+                bottom: 2rem;
+                width: 100%;
+            }
+        }
+    }
 }

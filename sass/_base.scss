@@ -21,7 +21,7 @@ $colors: (
 );
 
 @function color($color-name) {
-  @return map-get($map: $colors, $key: $color-name);
+  @return map-get($colors, $color-name);
 }
 
 $card-border-radius: 2rem;
@@ -69,5 +69,6 @@ body {
   font-size: 0.88rem;
   user-select: none;
   color: color(dark);
+  overflow-x: hidden;
   background-color: color(background);
 }
