@@ -23,7 +23,7 @@
         <title>UnBox Admin</title>
     </head>
 
-    <body>
+    <body class=".light-mode-variables">
         <div class="container">
             <!-- Sidebar -->
             <aside>
@@ -95,7 +95,7 @@
             <main>
                 <h1>Analytics</h1>
                 <!-- Analytics -->
-                <div class="analyze">
+                <div class="analyse">
                     <div class="sales">
                         <div class="status">
                             <div class="info">
@@ -200,10 +200,80 @@
             <!-- End of Main Content -->
 
             <!-- Right Section -->
+            <div class="right-section">
+                <!-- Right Nav -->
+                <div class="nav">
+                    <button id="menu-btn">
+                        <span class="material-symbols-outlined"> menu </span>
+                    </button>
+                    <div class="dark-mode">
+                        <span class="material-symbols-outlined active"> light_mode </span>
+                        <span class="material-symbols-outlined"> dark_mode </span>
+                    </div>
+
+                    <div class="profile">
+                        <div class="info">
+                            <p>Hey, <b>Abhishek</b></p>
+                            <small class="text-muted">Admin</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="./assets/face6.png" />
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Right Nav -->
+
+                <div class="user-profile">
+                    <div class="logo">
+                        <img src="./assets/logo unbox.png" />
+                        <h2>Abhishek Soren</h2>
+                        <p>Frontend Web Developer</p>
+                    </div>
+                </div>
+
+                <div class="reminders">
+                    <div class="header">
+                        <h2>Reminders</h2>
+                        <span class="material-symbols-outlined"> notifications </span>
+                    </div>
+
+                    <div class="notification">
+                        <div class="icon">
+                            <span class="material-symbols-outlined"> volume_up </span>
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Manga Sale</h3>
+                                <small class="text_muted"> 08:00 AM - 12:00 PM </small>
+                            </div>
+                            <span class="material-symbols-outlined"> more_vert </span>
+                        </div>
+                    </div>
+
+                    <div class="notification deactive">
+                        <div class="icon">
+                            <span class="material-symbols-outlined"> edit </span>
+                        </div>
+                        <div class="content">
+                            <div class="info">
+                                <h3>Weekend Dhamaka</h3>
+                                <small class="text_muted"> 08:00 AM - 12:00 PM </small>
+                            </div>
+                            <span class="material-symbols-outlined"> more_vert </span>
+                        </div>
+                    </div>
+
+                    <div class="notification add-reminder">
+                        <div>
+                            <span class="material-symbols-outlined"> add </span>
+                            <h3>Add Reminder</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- End of Right Section -->
         </div>
 
-        <script src="./script/index.js" async defer></script>
-        <script src="./script/orders.js" async defer></script>
+        <script src="./script/script.js" async defer></script>
     </body>
 </html>
