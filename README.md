@@ -3,11 +3,7 @@ A sleek and fully responsive admin dashboard template built with HTML, CSS, and 
 
 <h1 align="center" id="title">Responsive Admin Dashboard</h1>
 
-<h2>Project Screenshots:</h2>
 
-<img src="https://github.com/Abhishek-Soren/Responsive-Admin-Dashboard/blob/main/Screenshot%201.png" alt="project-screenshot">
-
-<img src="https://github.com/Abhishek-Soren/Responsive-Admin-Dashboard/blob/main/Screenshot%202.png" alt="project-screenshot">
 
 
 A responsive and feature-rich admin dashboard template designed for modern web applications. This project provides a clean, user-friendly interface with a variety of components.
@@ -15,6 +11,7 @@ A responsive and feature-rich admin dashboard template designed for modern web a
 ## Table of Contents
 
 - [Features](#features)
+- [Project Screenshots](#project-screenshots)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
 
@@ -24,6 +21,12 @@ A responsive and feature-rich admin dashboard template designed for modern web a
 - **Dark and Light Mode:** Switch between themes for better user experience.
 - **UI Components:** Includes charts, tables, and other essential admin tools.
 - **Customizable Layouts:** Easily tailor the dashboard to your needs.
+
+## Project Screenshots
+
+<img src="https://github.com/Abhishek-Soren/Responsive-Admin-Dashboard/blob/main/Screenshot%201.png" alt="project-screenshot">
+
+<img src="https://github.com/Abhishek-Soren/Responsive-Admin-Dashboard/blob/main/Screenshot%202.png" alt="project-screenshot">
 
 ## Technologies Used
 
@@ -36,7 +39,7 @@ A responsive and feature-rich admin dashboard template designed for modern web a
 For any questions, feedback, or support, please reach out to:
 
 - **Abhishek Soren**
-  - Email: [abhishek@example.com](mailto:abhisheksoren100@gmail.com)
+  - Email: [abhisheksoren100@gmail.com](mailto:abhisheksoren100@gmail.com)
   - GitHub: [Abhishek-Soren](https://github.com/Abhishek-Soren)
 
 Feel free to open an issue or submit a pull request if you have suggestions for improvements.
