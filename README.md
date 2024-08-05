@@ -1,11 +1,6 @@
 # [Responsive-Admin-Dashboard](https://unbox-admin-dashboard-abhi.netlify.app/)
 A sleek and fully responsive admin dashboard template built with HTML, CSS, and JavaScript. Ideal for managing and visualizing data with ease and style.
 
-<h1 align="center" id="title">Responsive Admin Dashboard</h1>
-
-
-
-
 A responsive and feature-rich admin dashboard template designed for modern web applications. This project provides a clean, user-friendly interface with a variety of components.
 
 ## Table of Contents
